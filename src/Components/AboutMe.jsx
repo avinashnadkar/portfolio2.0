@@ -24,8 +24,7 @@ const AboutMe = () => {
                     from <a href="https://masaischool.com/" target="_blank" style={{color: "skyblue",textDecoration:"none"}}>Masai School </a> where I have learned Remote Collabration, Problem Solving, DSA, DBMS and many skills.
                 </p>
                 <p>
-                    Apart from Web I have interest in Robotics, AI , Virtual Reality, Aerodynamics and Aerospace engineering. I making a drone click on this  <a href="https://youtu.be/4wI14qBzSAs" target="_blank"><button style={{backgroundColor:"transparent", color: theme.textcolor, border:`1px solid ${theme.textcolor}`, margin: "0px 5px 0px 0px", padding:"5px"}}>My drone</button></a> button to see it
-                    Learning and Working on different technologies is my hobby.
+                    Apart from Web I have interest in Robotics, AI , Virtual Reality, Aerodynamics and Aerospace engineering. Learning and Working on different technologies is my hobby. To know more about me please click here 
                 </p>
              </div>
              <div className={style.skills}>
