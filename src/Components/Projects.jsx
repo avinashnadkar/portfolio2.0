@@ -12,12 +12,13 @@ const Projects = () => {
             <div className={style.projectOne}>
                 <div className={style.projectOneDesc}>
                     <div>
-                        <h2>1) CRED</h2>
-                        <p> CRED is an Indian fintech startup, 
-                            based out of Bengaluru, Karnataka, which was 
-                            founded in 2018 by Kunal Shah. CRED's main feature 
-                            is allowing users to make credit card payments through 
-                            its app for which they get rewarded
+                        <h2>1) E-commerce</h2>
+                        <p> e-commerce website for a single shop 
+                            created with mern stack with features of
+                            add to cart, payment, sign in / sign up.
+                            I am the solo contributer of this project.
+                            All the css and react component created by me.
+                            for design purpose I have copied design from jio mart website
                         </p>
                     
                         <ul className={style.projectTechStack1}>
@@ -25,9 +26,11 @@ const Projects = () => {
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>HTML</li>
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>CSS</li>
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>JavaScript</li>
-                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>REACT</li>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>REACT - REDUX</li>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>Node.js</li>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>MongoDB</li>
                         </ul>
-                        <div className={style.projectBtnContainer}><a href="https://github.com/avinashnadkar/cred" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://cred.club/" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
+                        <div className={style.projectBtnContainer}><a href="https://github.com/avinashnadkar/e-commerce" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://online-shop-mern.netlify.app/" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
                     </div>
                 </div>
                 <div className={style.projectOneImg}></div>
@@ -36,31 +39,12 @@ const Projects = () => {
                 <div className={style.projectTwoImg}> </div>
                 <div className={style.projectTwoDesc}>
                     <div>
-                        <h2>2) airtable.com</h2>
-                        <p> Airtable is a cloud collaboration service 
-                            headquartered in San Francisco. It was founded in 2012 by Howie Liu, 
-                            Andrew Ofstad, and Emmett Nicholas. Airtable is a spreadsheet-database
-                             hybrid, with the features of a database but applied to a
+                        <h2>2) Twitter clone</h2>
+                        <p> Twitter is a famous social media website. it is used for microblogging and social networking. 
+                            In this project I have tried to clone main features of Twitter. This project is created technologies using 
+                            React.js, Node.js and MongoDB with features of sign in/ sign up, post tweet, follow / unfollow etc.
                         </p>
                         <ul className={style.projectTechStack2}>
-                        <h4 style={{borderRight: `1px solid ${theme.textcolor}`}}>Tech Stack</h4>
-                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>HTML</li>
-                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>CSS</li>
-                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>JavaScript</li>
-                        </ul>
-                        <div className={style.projectBtnContainer}><a href="https://github.com/makkardeepak25/project_airtable" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://affectionate-ride-47454a.netlify.app/" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
-                    </div>
-                </div>
-            </div>
-            <div className={style.projectThree}>
-                <div className={style.projectThreeDesc}>
-                    <div>
-                        <h2>3) bus.irctc</h2>
-                        <p> Indian Railway Catering and Tourism Corporation is a wholly
-                            owned subsidiary of Indian Railways that provides ticketing,
-                            catering, and tourism services to the Indian Railways.
-                        </p>
-                        <ul className={style.projectTechStack3}>
                         <h4 style={{borderRight: `1px solid ${theme.textcolor}`}}>Tech Stack</h4>
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>HTML</li>
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>CSS</li>
@@ -69,7 +53,25 @@ const Projects = () => {
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>Node.js</li>
                             <li style={{borderRight: `1px solid ${theme.textcolor}`}}>MongoDB</li>
                         </ul>
-                        <div className={style.projectBtnContainer}><a href="https://github.com/SumanChakraborty1998/irctc_bus_frontend/" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://www.bus.irctc.co.in/home" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
+                        <div className={style.projectBtnContainer}><a href="https://github.com/avinashnadkar/twitter_clone_client" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://twitter-clone-mern.netlify.app" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div className={style.projectThree}>
+                <div className={style.projectThreeDesc}>
+                    <div>
+                        <h2>3) Cow boy game</h2>
+                        <p> cow-boy game is a single player game like offline Chrome Dino game. 
+                            It is only a static game developed using HTML, CSS and JavaScript.
+                            for graphics I have used canvas.
+                        </p>
+                        <ul className={style.projectTechStack3}>
+                        <h4 style={{borderRight: `1px solid ${theme.textcolor}`}}>Tech Stack</h4>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>HTML</li>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>CSS</li>
+                            <li style={{borderRight: `1px solid ${theme.textcolor}`}}>JavaScript</li>
+                        </ul>
+                        <div className={style.projectBtnContainer}><a href="https://github.com/avinashnadkar/cow-boy-game" target="_blank"><button className={style.seeCodeBtn} style={{color:theme.textcolor, border:`1px solid ${theme.textcolor}`}}>See code</button></a><a href="https://avinashnadkar.github.io/cow-boy-game/" target="_blank"><button className={style.seeLiveBtn} style={{backgroundColor:theme.textcolor, color: theme.backgroundColor, border:"none"}}>See live</button></a></div>
                     </div>
                 </div>
                 <div className={style.projectThreeImg}> </div>

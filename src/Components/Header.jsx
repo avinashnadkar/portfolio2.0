@@ -16,7 +16,7 @@ const Header = () => {
                 <h1  className={style.mainTitle}>Avinash Nadkar</h1>
                 <p  className={style.mainSubTitle}>
                     Full stack web developer, passionate about technology Whose <br/> 
-                    aim is to re-search and create new technologies and contribute to tech world
+                    aim is to research and create new and secure technologies and contribute to tech world
                 </p>
                 <div className={style.headerBtns}>
                 {/* style={{backgroundColor:theme.exploreMoreBtn}}  */}
