@@ -22,6 +22,7 @@ const AboutMe = () => {
                     And I started to search information about it on Internet. Then I got to know about programming and then my journey of programming started.
                     I have done certification course in software and web development and recently I have completed my "Full Stack Web Development" course 
                     from <a href="https://masaischool.com/" target="_blank" style={{color: "skyblue",textDecoration:"none"}}>Masai School </a> where I have learned Remote Collabration, Problem Solving, DSA, DBMS and many skills.
+                    I have three months of experience as Full stack developer in <a href="https://www.salesken.ai" target="_blank" style={{color: "skyblue",textDecoration:"none"}}>Salesken.ai</a> where I got chance to code in java
                 </p>
                 <p>
                     Apart from Web I have interest in Robotics, AI , Virtual Reality, Aerodynamics and Aerospace engineering. Learning and Working on different technologies is my hobby. To know more about me please click here 
